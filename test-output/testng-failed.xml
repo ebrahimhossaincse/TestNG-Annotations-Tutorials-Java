@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ebrahim.hossain.sqa.BeforeMethodExample">
+      <class name="ebrahim.hossain.sqa.DataProviderExample">
         <methods>
-          <include name="startChromeBrowser"/>
-          <include name="secondTest"/>
+          <include name="testLogin" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- ebrahim.hossain.sqa.BeforeMethodExample -->
+      </class> <!-- ebrahim.hossain.sqa.DataProviderExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
