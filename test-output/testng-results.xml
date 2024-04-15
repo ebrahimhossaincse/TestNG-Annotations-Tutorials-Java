@@ -2,36 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-15T08:23:20 EDT" name="Default suite" finished-at="2024-04-15T08:23:32 EDT" duration-ms="12892">
+  <suite started-at="2024-04-15T13:02:09 EDT" name="Default suite" finished-at="2024-04-15T13:02:14 EDT" duration-ms="4751">
     <groups>
     </groups>
-    <test started-at="2024-04-15T08:23:20 EDT" name="Default test" finished-at="2024-04-15T08:23:32 EDT" duration-ms="12892">
-      <class name="ebrahim.hossain.sqa.DataProviderExample">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ebrahim.hossain.sqa.DataProviderExample@268f106e]" started-at="2024-04-15T08:23:20 EDT" name="setUp" finished-at="2024-04-15T08:23:27 EDT" duration-ms="7559" status="PASS">
+    <test started-at="2024-04-15T13:02:09 EDT" name="Default test" finished-at="2024-04-15T13:02:14 EDT" duration-ms="4751">
+      <class name="ebrahim.hossain.sqa.IgnoreExample">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:ebrahim.hossain.sqa.IgnoreExample@5e2c3d18]" started-at="2024-04-15T13:02:06 EDT" name="startChromeBrowser" finished-at="2024-04-15T13:02:09 EDT" duration-ms="2939" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:ebrahim.hossain.sqa.DataProviderExample@268f106e]" started-at="2024-04-15T08:23:27 EDT" name="testLogin" data-provider="loginData" finished-at="2024-04-15T08:23:32 EDT" duration-ms="5165" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- startChromeBrowser -->
+        <test-method signature="secondTest()[pri:0, instance:ebrahim.hossain.sqa.IgnoreExample@5e2c3d18]" started-at="2024-04-15T13:02:09 EDT" name="secondTest" finished-at="2024-04-15T13:02:14 EDT" duration-ms="4710" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ebrahim.hossain.sqa.DataProviderExample@268f106e]" started-at="2024-04-15T08:23:32 EDT" name="tearDown" finished-at="2024-04-15T08:23:32 EDT" duration-ms="132" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- ebrahim.hossain.sqa.DataProviderExample -->
+        </test-method> <!-- secondTest -->
+      </class> <!-- ebrahim.hossain.sqa.IgnoreExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
