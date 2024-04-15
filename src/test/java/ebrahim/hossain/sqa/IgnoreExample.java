@@ -23,6 +23,7 @@ public class IgnoreExample {
 	public void firstTest() throws InterruptedException {
 		driver.get(url);
 		Thread.sleep(3000);
+		driver.close();
 	}
 
 	@Test
