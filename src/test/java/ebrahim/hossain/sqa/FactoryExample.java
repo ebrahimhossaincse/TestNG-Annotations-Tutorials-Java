@@ -8,14 +8,22 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Factory;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class FactoryExample {
 
-	protected static String url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+	private static final String url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 	private WebDriver driver;
+
+	@Factory
+	public Object[] factoryMethod() {
+		return new Object[] { 
+				new FactoryExample() 
+				};
+	}
 
 	@BeforeClass
 	public void setUp() throws InterruptedException {
@@ -30,7 +38,6 @@ public class FactoryExample {
 	public void testLogin(String username, String password) throws InterruptedException {
 		WebElement usernameElement = driver.findElement(By.name("username"));
 		WebElement passwordElement = driver.findElement(By.xpath("//input[@name='password']"));
-		
 
 		// Fill in the form
 		usernameElement.sendKeys(username);
