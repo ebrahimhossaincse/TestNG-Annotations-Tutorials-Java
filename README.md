@@ -140,26 +140,6 @@ git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java
 ### 00 - Launching Browsers
 - 00 - 00 []() 
 
-
-### 02 - Locators in Selenium
-- 02 - 00 [Locate by ID](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByIDAttribute.java)
-- 02 - 01 [Locate by Name](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByNameAttribute.java)
-- 02 - 02 [Locate by Class Name](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByClassNameAttribute.java)
-- 02 - 03 [Locate by CSS Selector](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByCssSelectorAttribute.java)
-- 02 - 04 [Locate by Link Text](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByLinkTextAttribute.java)
-- 02 - 05 [Locate by Partial Link Text](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByPartialLinkTextAttribute.java)
-- 02 - 06 [Locate by Tag Name](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/LocateByTagNameAttribute.java)
-- 02 - 07 [Locate by Absolute XPath](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByAbsoluteXPath.java)
-- 02 - 08 [Locate by Relative XPath](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByRelativeXPath.java)
-- 02 - 09 [Locate by Text](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByText.java)
-- 02 - 10 [Locate by Starts With](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByStartsWith.java)
-- 02 - 11 [Locate by Preceding](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByPreceding.java)
-- 02 - 12 [Locate by Position](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByPosition.java)
-- 02 - 13 [Locate by OR Expression](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByOrExpression.java)
-- 02 - 14 [Locate by AND Expression](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByAndExpression.java)
-- 02 - 15 [Locate by Contains](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByContains.java)
-- 02 - 16 [Locate by Last](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/locators/dynamicxpath/LocateByLast.java)
-
 ### 03 - WebDriver Browser Commands
 - 03 - 00 [Retrieve Title Of Current WebPage](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/webdrivergetcommands/RetrieveTitleOfCurrentWebPage.java)
 - 03 - 01 [Retrieve Current URL Of Current WebPage](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/webdrivergetcommands/RetrieveCurrentURLOfCurrentWebPage.java)
