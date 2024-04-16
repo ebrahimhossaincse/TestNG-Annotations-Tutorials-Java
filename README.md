@@ -22,7 +22,7 @@
     - [@BeforeSuite](#00---beforeSuite-annotation)
     - [@AfterSuite](#01---afterSuite-annotation)
     - [@BeforeTest](#02---beforeTest-annotation)
-    - [@AfterTest](#03---)
+    - [@AfterTest](#03---afterTest-annotation)
     - [@BeforeClass](#04---)
     - [@AfterClass](#05---)
     - [@BeforeMethod](#06---)
