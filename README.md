@@ -170,7 +170,7 @@ The @AfterSuite annotation in TestNG is used to indicate that a specific method 
 [After Suite](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/AfterSuiteExample.java)
 
 ### 02 - BeforeTest Annotation 
-The @AfterSuite annotation in TestNG is used to indicate that a specific method will be executed after the execution of all tests in the suite has completed. This annotation is typically used to perform cleanup activities or actions that need to be done once after the entire suite has finished running.
+The @BeforeTest annotation in TestNG is used to indicate that a specific method will be executed before each test method in a test class. This annotation is typically used to perform setup activities that are required before each individual test method runs.
 
 ### **Usage:**
 
@@ -184,6 +184,23 @@ The @AfterSuite annotation in TestNG is used to indicate that a specific method 
 - The @BeforeTest methods are executed in the order they are defined in the test class.
 
 [Before Test](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/BeforeTestExample.java)
+
+### 03 - AfterTest Annotation 
+The @AfterTest annotation in TestNG is used to indicate that a specific method will be executed after each test method in a test class has completed its execution. This annotation is typically used to perform cleanup activities or actions that need to be done after each individual test method finishes.
+
+### **Usage:**
+
+- Closing resources or connections that were opened for a specific test.
+- Releasing memory or performing finalization tasks after each test.
+- Logging or reporting after each test is completed.
+
+### **Note:**
+
+- Each test class can have multiple methods annotated with @AfterTest. All these methods will be executed after each test method in the class.
+- The @AfterTest methods are executed in the reverse order of how they are defined in the test class.
+
+[After Test](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/AfterTestExample.java)
+
 
 ### Acknowledgments
 Special thanks to the contributors and the TestNG community for their valuable resources and tutorials.
