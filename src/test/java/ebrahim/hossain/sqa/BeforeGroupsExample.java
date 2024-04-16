@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeGroups;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -25,14 +24,12 @@ public class BeforeGroupsExample {
     public void firstTest() throws InterruptedException {
         driver.get("https://www.testingtherapy.com/");
         Thread.sleep(3000);
-//        driver.close();
     }
 
     @Test(groups = "webTests")
     public void secondTest() throws InterruptedException {
         driver.get("https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php");
         Thread.sleep(3000);
-//        driver.close();
     }
 
     @AfterSuite
