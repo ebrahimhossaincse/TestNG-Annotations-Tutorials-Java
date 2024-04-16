@@ -141,15 +141,6 @@ git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java
 - 00 - 00 []() 
 
 
-### 08 - DropDown in Selenium
-- 08 - 00 [Select By Index](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/SelectByIndex.java)
-- 08 - 01 [Select By Value](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/SelectByValue.java)
-- 08 - 02 [Select By Visible Text](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/SelectByVisibleText.java)
-- 08 - 03 [Fetch List of options in dropdown](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/ListOfAllDropdownOption.java)
-- 08 - 04 [DeSelect By Index](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/DeselectByIndex.java)
-- 08 - 05 [Deselect By Value](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/DeselectByValue.java)
-- 08 - 06 [Deselect By Visible Text](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/DeselectByVisibleText.java)
-
 ### 09 - Alerts in Selenium
 - 09 - 00 [Accept Simple Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/AcceptSimpleAlert.java)
 - 09 - 01 [Accept ConfirmA lert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/AcceptConfirmAlert.java)
