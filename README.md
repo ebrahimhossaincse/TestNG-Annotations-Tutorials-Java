@@ -23,10 +23,10 @@
     - [@AfterSuite](#01---afterSuite-annotation)
     - [@BeforeTest](#02---beforeTest-annotation)
     - [@AfterTest](#03---afterTest-annotation)
-    - [@BeforeClass](#04---)
-    - [@AfterClass](#05---)
-    - [@BeforeMethod](#06---)
-    - [@AfterMethod](#07---)
+    - [@BeforeClass](#04---beforeClass-annotation)
+    - [@AfterClass](#05---beforeClass-annotation)
+    - [@BeforeMethod](#06---beforeMethod-annotation)
+    - [@AfterMethod](#07---afterMethod-annotation)
     - [@Test](#08---)
     - [@DataProvider](#09---)
     - [@Factory](#10---)
@@ -238,6 +238,40 @@ The @AfterClass annotation in TestNG is used to indicate that a specific method 
 
 ### **Example:**
 [After Class](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/AfterClassExample.java)
+
+### 05 - BeforeMethod Annotation 
+The @BeforeMethod annotation in TestNG is used to indicate that a specific method will be executed before each test method in a test class. This annotation is typically used to perform setup activities that are required before each individual test method runs.
+
+### **Usage:**
+
+- Initializing method-specific resources or data.
+- Setting up preconditions required for individual test methods.
+- Preparing the environment for each test method.
+
+### **Note:**
+
+- Each test class can have multiple methods annotated with @BeforeMethod. All these methods will be executed before each test method in the class.
+- The @BeforeMethod methods are executed in the order they are defined in the test class.
+
+### **Example:**
+[Before Method](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/BeforeMethodExample.java)
+
+### 06 - AfterMethod Annotation 
+The @AfterMethod annotation in TestNG is used to indicate that a specific method will be executed after each test method in a test class has completed its execution. This annotation is typically used to perform cleanup activities or actions that need to be done after each individual test method finishes.
+
+### **Usage:**
+
+- Closing resources or connections opened for a specific test method.
+- Releasing memory or performing finalization tasks after each test method.
+- Logging or reporting after each test is completed.
+
+### **Note:**
+
+- Each test class can have multiple methods annotated with @AfterMethod. All these methods will be executed after each test method in the class.
+- The @AfterMethod methods are executed in the reverse order of how they are defined in the test class.
+
+### **Example:**
+[After Method](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/AfterMethodExample.java)
 
 ### Acknowledgments
 Special thanks to the contributors and the TestNG community for their valuable resources and tutorials.
