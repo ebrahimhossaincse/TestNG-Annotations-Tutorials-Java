@@ -273,6 +273,23 @@ The @AfterMethod annotation in TestNG is used to indicate that a specific method
 ### **Example:**
 [After Method](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/AfterMethodExample.java)
 
+### 07 - Test Annotation 
+The @Test annotation in TestNG is used to indicate that a specific method is a test method. This annotation is typically used to define the actual test cases that should be executed.
+
+### **Usage:**
+
+- Defining the test logic that should be executed.
+- Running specific test cases within a test class.
+
+### **Note:**
+
+- Each method annotated with @Test is considered a separate test case.
+- TestNG executes the test methods in the order they are defined in the test class.
+- TestNG provides various assertions (assert, assertEquals, assertTrue, etc.) to validate the test results.
+
+### **Example:**
+[Test](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/TestExample.java)
+
 ### Acknowledgments
 Special thanks to the contributors and the TestNG community for their valuable resources and tutorials.
 
