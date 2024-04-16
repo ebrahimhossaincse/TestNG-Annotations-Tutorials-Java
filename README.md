@@ -24,7 +24,7 @@
     - [@BeforeTest](#02---beforeTest-annotation)
     - [@AfterTest](#03---afterTest-annotation)
     - [@BeforeClass](#04---beforeClass-annotation)
-    - [@AfterClass](#05---beforeClass-annotation)
+    - [@AfterClass](#05---afterClass-annotation)
     - [@BeforeMethod](#06---beforeMethod-annotation)
     - [@AfterMethod](#07---afterMethod-annotation)
     - [@Test](#08---test-annotation)
@@ -239,7 +239,7 @@ The @AfterClass annotation in TestNG is used to indicate that a specific method 
 ### **Example:**
 [After Class](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/AfterClassExample.java)
 
-### 05 - BeforeMethod Annotation 
+### 06 - BeforeMethod Annotation 
 The @BeforeMethod annotation in TestNG is used to indicate that a specific method will be executed before each test method in a test class. This annotation is typically used to perform setup activities that are required before each individual test method runs.
 
 ### **Usage:**
@@ -256,7 +256,7 @@ The @BeforeMethod annotation in TestNG is used to indicate that a specific metho
 ### **Example:**
 [Before Method](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/BeforeMethodExample.java)
 
-### 06 - AfterMethod Annotation 
+### 07 - AfterMethod Annotation 
 The @AfterMethod annotation in TestNG is used to indicate that a specific method will be executed after each test method in a test class has completed its execution. This annotation is typically used to perform cleanup activities or actions that need to be done after each individual test method finishes.
 
 ### **Usage:**
@@ -273,7 +273,7 @@ The @AfterMethod annotation in TestNG is used to indicate that a specific method
 ### **Example:**
 [After Method](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/AfterMethodExample.java)
 
-### 07 - Test Annotation 
+### 08 - Test Annotation 
 The @Test annotation in TestNG is used to indicate that a specific method is a test method. This annotation is typically used to define the actual test cases that should be executed.
 
 ### **Usage:**
@@ -290,7 +290,7 @@ The @Test annotation in TestNG is used to indicate that a specific method is a t
 ### **Example:**
 [Test](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/TestExample.java)
 
-### 08 - DataProvider Annotation 
+### 09 - DataProvider Annotation 
 The @DataProvider annotation in TestNG is used to supply test methods with data. It allows you to separate the data from the test methods, making it easier to maintain and reuse test data across multiple test cases
 
 ### **Usage:**
@@ -307,7 +307,7 @@ The @DataProvider annotation in TestNG is used to supply test methods with data.
 ### **Example:**
 [Data Provider](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/DataProviderExample.java)
 
-### 09 - Factory Annotation 
+### 10 - Factory Annotation 
 The @Factory annotation in TestNG is used to create a test class instance multiple times with different sets of data or parameters. This annotation is particularly useful when you need to create instances of a test class dynamically, each with its own set of input data.
 
 ### **Usage:**
@@ -325,7 +325,7 @@ The @Factory annotation in TestNG is used to create a test class instance multip
 ### **Example:**
 [Factory](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/FactoryExample.java)
 
-### 10 - Ignore Annotation 
+### 11 - Ignore Annotation 
 The @Ignore annotation in TestNG is used to temporarily disable a test method or a test class. This annotation is helpful when you want to skip certain tests without deleting them, such as when a test is failing due to an issue that needs to be fixed later.
 
 ### **Usage:**
