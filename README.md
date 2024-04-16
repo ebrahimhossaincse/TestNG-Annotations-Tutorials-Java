@@ -140,11 +140,6 @@ git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java
 ### 00 - Before Suite TestNG Annotation 
 - 00 - 00 []() 
 
-### 05 - Waits in Selenium
-- 05 - 00 [Explicit](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/waits/ExplicitWait.java)
-- 05 - 01 [Implicit](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/waits/ImplicitWait.java)
-- 05 - 02 [Fluent](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/waits/FluentWaits.java)
-
 ### 06 - Automate Radio Button in Selenium
 - 06 - 00 [Single Radio Button Selection](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/radiobuttonhandling/SelectRadioButton.java)
 - 06 - 01 [Group Radio Button Selection](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/radiobuttonhandling/SelectRadioButtonDynamic.java)
