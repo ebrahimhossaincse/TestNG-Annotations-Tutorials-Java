@@ -151,6 +151,7 @@ The @BeforeSuite annotation in TestNG is used to indicate that a specific method
 - There can only be one method annotated with @BeforeSuite in a test suite. If multiple methods are annotated with @BeforeSuite, TestNG will throw an exception.
 - The @BeforeSuite method is executed only once before the entire test suite runs.
 
+### **Example:**
 [Before Suite](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/BeforeSuiteExample.java) 
 
 ### 01 - AfterSuite Annotation 
@@ -167,6 +168,7 @@ The @AfterSuite annotation in TestNG is used to indicate that a specific method 
 - There can only be one method annotated with @AfterSuite in a test suite. If multiple methods are annotated with @AfterSuite, TestNG will throw an exception.
 - The @AfterSuite method is executed only once after the entire test suite has run.
 
+### **Example:**
 [After Suite](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/AfterSuiteExample.java)
 
 ### 02 - BeforeTest Annotation 
@@ -183,6 +185,7 @@ The @BeforeTest annotation in TestNG is used to indicate that a specific method 
 - Each test class can have multiple methods annotated with @BeforeTest. All these methods will be executed before each test method in the class.
 - The @BeforeTest methods are executed in the order they are defined in the test class.
 
+### **Example:**
 [Before Test](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/BeforeTestExample.java)
 
 ### 03 - AfterTest Annotation 
@@ -199,8 +202,42 @@ The @AfterTest annotation in TestNG is used to indicate that a specific method w
 - Each test class can have multiple methods annotated with @AfterTest. All these methods will be executed after each test method in the class.
 - The @AfterTest methods are executed in the reverse order of how they are defined in the test class.
 
+### **Example:**
 [After Test](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/AfterTestExample.java)
 
+### 04 - BeforeClass Annotation 
+The @BeforeClass annotation in TestNG is used to indicate that a specific method will be executed once before the first test method in the current class runs. This annotation is typically used to perform setup activities that are shared by all test methods in the class.
+
+### **Usage:**
+
+- Initializing class-level resources or data.
+- Setting up preconditions shared by all test methods in the class.
+- Performing setup tasks that are common to all test methods in the class.
+
+### **Note:**
+
+- Each test class can have only one method annotated with @BeforeClass. If multiple methods are annotated with @BeforeClass, TestNG will throw an exception.
+- The @BeforeClass method is executed only once before any test method in the class runs.
+
+### **Example:**
+[Before Class](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/BeforeClassExample.java)
+
+### 05 - AfterClass Annotation 
+The @AfterClass annotation in TestNG is used to indicate that a specific method will be executed once after all the test methods in the current class have completed their execution. This annotation is typically used to perform cleanup activities or actions that need to be done once after all test methods in the class have run.
+
+### **Usage:**
+
+- Closing resources or connections that were opened for the entire class.
+- Releasing memory or performing finalization tasks for the entire class.
+- Generating class-level reports or performing class-level cleanup.
+
+### **Note:**
+
+- Each test class can have only one method annotated with @AfterClass. If multiple methods are annotated with @AfterClass, TestNG will throw an exception.
+- The @AfterClass method is executed only once after all test methods in the class have run.
+
+### **Example:**
+[After Class](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/AfterClassExample.java)
 
 ### Acknowledgments
 Special thanks to the contributors and the TestNG community for their valuable resources and tutorials.
