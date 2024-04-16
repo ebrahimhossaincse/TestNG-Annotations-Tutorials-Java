@@ -27,7 +27,7 @@
     - [@AfterClass](#05---beforeClass-annotation)
     - [@BeforeMethod](#06---beforeMethod-annotation)
     - [@AfterMethod](#07---afterMethod-annotation)
-    - [@Test](#08---)
+    - [@Test](#08---test-annotation)
     - [@DataProvider](#09---)
     - [@Factory](#10---)
     - [@Ignore](#11---)
@@ -289,6 +289,24 @@ The @Test annotation in TestNG is used to indicate that a specific method is a t
 
 ### **Example:**
 [Test](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/TestExample.java)
+
+### 08 - DataProvider Annotation 
+The @DataProvider annotation in TestNG is used to supply test methods with data. It allows you to separate the data from the test methods, making it easier to maintain and reuse test data across multiple test cases
+
+### **Usage:**
+
+- Supplying test methods with different sets of test data.
+- Executing the same test method with multiple input data.
+- Parameterizing tests to cover various scenarios.
+
+### **Note:**
+
+- The test method that uses the @DataProvider annotation should have parameters that match the data provided.
+- The test method will be executed multiple times, once for each set of data provided by the data provider.
+
+### **Example:**
+[Data Provider](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/DataProviderExample.java)
+
 
 ### Acknowledgments
 Special thanks to the contributors and the TestNG community for their valuable resources and tutorials.
