@@ -1,4 +1,4 @@
-# **Selenium Tutorials with JAVA**
+# **TestNG Annotations Tutorials with Java**
 ### Table of Contents
 
 1. [Overview](#Overview)
@@ -42,10 +42,10 @@
 39. [Contact](#contact)
 
 ### Overview
-This repository serves as a comprehensive guide to working with Selenium WebDriver using Java. Whether you're a beginner looking to get started with Selenium for automated testing or an experienced developer seeking advanced browser handling techniques, this repository has something for everyone.
+Welcome to the TestNG Annotations Tutorials with Java repository! This repository serves as a comprehensive guide to working with TestNG annotations in Java. Whether you're new to TestNG or an experienced developer looking to enhance your testing skills, this repository covers various TestNG annotations and their usage in test automation.
 
 ### Getting Started
-Follow these steps to set up your development environment and start using Selenium with Java
+Follow these steps to set up your development environment and start using TestNG with Java.
 
 ### Prerequisites
 
@@ -104,10 +104,10 @@ Follow these steps to set up your development environment and start using Seleni
 ### Installation Steps
 To start using the framework:
 
-1. [Fork](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java.git) the repository.
+1. [Fork](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java.git) the repository.
 2. Clone, i.e, download your copy of the repository to your local machine using
 ```
-git clone https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java.git
+git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java.git
 ```
 3. Import the project into your preferred IDE (Eclipse, IntelliJ IDEA, or Spring Tools).
 4. Make any desired changes or additions to the project.
