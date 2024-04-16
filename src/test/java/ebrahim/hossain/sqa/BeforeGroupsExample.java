@@ -8,8 +8,6 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BeforeGroupsExample {
-
-    protected static String url = "";
     WebDriver driver;
 
     @BeforeGroups(groups = {"webTests"})
