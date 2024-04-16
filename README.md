@@ -141,15 +141,6 @@ git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java
 - 00 - 00 []() 
 
 
-### 12 - Keyboard Events In Selenium
-- 12 - 00 [Keyboard Events](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/keyboardevents/KeyboardEvents.java)
-
-### 13 - Browser Tab
-- 13 - 00 [Create New Tab](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/tabhandling/CreateNewTab.java)
-- 13 - 01 [Count The Tabs](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/tabhandling/CountTheTabs.java)
-- 13 - 02 [Switch To New Tab](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/tabhandling/SwitchToNewTab.java)
-- 13 - 03 [Switching One Tab To Another](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/tabhandling/SwitchingOneTabToAnother.java)
-
 ### 14 - Browser Window
 - 14 - 00 [Create New Window](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/windowhandling/CreateNewWindow.java)
 - 14 - 01 [Count The Window](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/windowhandling/CountTheWindows.java)
