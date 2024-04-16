@@ -140,13 +140,6 @@ git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java
 ### 00 - Before Suite TestNG Annotation 
 - 00 - 00 []() 
 
-
-### 17 - Web Table
-- 17 - 00 [Fetch Table Heading](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/webtablehandling/FetchTableHeading.java)
-- 17 - 01 [Count Number Of Rows And Columns](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/webtablehandling/NumberOfRowsAndColumns.java)
-- 17 - 02 [Fetch Cell Value Of Particular Row And Column](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/webtablehandling/FetchCellValueOfParticularRowAndColumn.java)
-- 17 - 03 [Get Maximum Price In Column](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/webtablehandling/GetMaximumPriceInColumn.java)
-
 ### Acknowledgments
 Special thanks to the contributors and the TestNG community for their valuable resources and tutorials.
 
