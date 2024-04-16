@@ -19,8 +19,8 @@
 12. [Installation Steps](#installation-steps)   
 21. [Step Wise Details](#step-wise-details)
 
-    - [@BeforeSuite](#00---beforeSuite-annotation )
-    - [@AfterSuite](#01---)
+    - [@BeforeSuite](#00---beforeSuite-annotation)
+    - [@AfterSuite](#01---afterSuite-annotation)
     - [@BeforeTest](#02---)
     - [@AfterTest](#03---)
     - [@BeforeClass](#04---)
@@ -152,6 +152,22 @@ The @BeforeSuite annotation in TestNG is used to indicate that a specific method
 - The @BeforeSuite method is executed only once before the entire test suite runs.
 
 [Before Suite](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/BeforeSuiteExample.java) 
+
+### 01 - AfterSuite Annotation 
+The @AfterSuite annotation in TestNG is used to indicate that a specific method will be executed after the execution of all tests in the suite has completed. This annotation is typically used to perform cleanup activities or actions that need to be done once after the entire suite has finished running.
+
+### **Usage:**
+
+- Closing resources or connections that were opened for the entire suite.
+- Releasing memory or performing finalization tasks.
+- Generating test reports or sending notifications after all tests have finished.
+
+### **Note:**
+
+- There can only be one method annotated with @AfterSuite in a test suite. If multiple methods are annotated with @AfterSuite, TestNG will throw an exception.
+- The @AfterSuite method is executed only once after the entire test suite has run.
+
+[After Suite](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/AfterSuiteExample.java)
 
 ### Acknowledgments
 Special thanks to the contributors and the TestNG community for their valuable resources and tutorials.
