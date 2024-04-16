@@ -140,10 +140,6 @@ git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java
 ### 00 - Before Suite TestNG Annotation 
 - 00 - 00 []() 
 
-### 06 - Automate Radio Button in Selenium
-- 06 - 00 [Single Radio Button Selection](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/radiobuttonhandling/SelectRadioButton.java)
-- 06 - 01 [Group Radio Button Selection](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/radiobuttonhandling/SelectRadioButtonDynamic.java)
-
 ### 07 - Automate Checkbox in Selenium
 - 07 - 00 [Select Checkbox By ID](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/SelectCheckboxByID.java)
 - 07 - 01 [Select Checkbox By XPath](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/SelectCheckboxByXPath.java)
