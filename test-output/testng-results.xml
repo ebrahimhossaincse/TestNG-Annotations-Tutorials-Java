@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-16T03:03:33 EDT" name="Default suite" finished-at="2024-04-16T03:03:42 EDT" duration-ms="8980">
+  <suite started-at="2024-04-16T03:08:22 EDT" name="Default suite" finished-at="2024-04-16T03:08:34 EDT" duration-ms="11474">
     <groups>
       <group name="webTests">
-        <method signature="BeforeGroupsExample.firstTest()[pri:0, instance:ebrahim.hossain.sqa.BeforeGroupsExample@2cb4893b]" name="firstTest" class="ebrahim.hossain.sqa.BeforeGroupsExample"/>
-        <method signature="BeforeGroupsExample.secondTest()[pri:0, instance:ebrahim.hossain.sqa.BeforeGroupsExample@2cb4893b]" name="secondTest" class="ebrahim.hossain.sqa.BeforeGroupsExample"/>
+        <method signature="AfterGroupsExample.firstTest()[pri:0, instance:ebrahim.hossain.sqa.AfterGroupsExample@74ea2410]" name="firstTest" class="ebrahim.hossain.sqa.AfterGroupsExample"/>
+        <method signature="AfterGroupsExample.secondTest()[pri:0, instance:ebrahim.hossain.sqa.AfterGroupsExample@74ea2410]" name="secondTest" class="ebrahim.hossain.sqa.AfterGroupsExample"/>
       </group> <!-- webTests -->
     </groups>
-    <test started-at="2024-04-16T03:03:33 EDT" name="Default test" finished-at="2024-04-16T03:03:42 EDT" duration-ms="8980">
-      <class name="ebrahim.hossain.sqa.BeforeGroupsExample">
-        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:ebrahim.hossain.sqa.BeforeGroupsExample@2cb4893b]" started-at="2024-04-16T03:03:33 EDT" name="startChromeBrowser" finished-at="2024-04-16T03:03:34 EDT" duration-ms="1579" status="PASS">
+    <test started-at="2024-04-16T03:08:22 EDT" name="Default test" finished-at="2024-04-16T03:08:34 EDT" duration-ms="11474">
+      <class name="ebrahim.hossain.sqa.AfterGroupsExample">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:ebrahim.hossain.sqa.AfterGroupsExample@74ea2410]" started-at="2024-04-16T03:08:22 EDT" name="startChromeBrowser" finished-at="2024-04-16T03:08:24 EDT" duration-ms="1557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChromeBrowser -->
-        <test-method signature="firstTest()[pri:0, instance:ebrahim.hossain.sqa.BeforeGroupsExample@2cb4893b]" started-at="2024-04-16T03:03:34 EDT" name="firstTest" finished-at="2024-04-16T03:03:38 EDT" duration-ms="3956" status="PASS">
+        <test-method signature="firstTest()[pri:0, instance:ebrahim.hossain.sqa.AfterGroupsExample@74ea2410]" started-at="2024-04-16T03:08:24 EDT" name="firstTest" finished-at="2024-04-16T03:08:28 EDT" duration-ms="3928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method signature="secondTest()[pri:0, instance:ebrahim.hossain.sqa.BeforeGroupsExample@2cb4893b]" started-at="2024-04-16T03:03:38 EDT" name="secondTest" finished-at="2024-04-16T03:03:42 EDT" duration-ms="3411" status="PASS">
+        <test-method signature="secondTest()[pri:0, instance:ebrahim.hossain.sqa.AfterGroupsExample@74ea2410]" started-at="2024-04-16T03:08:28 EDT" name="secondTest" finished-at="2024-04-16T03:08:34 EDT" duration-ms="5802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ebrahim.hossain.sqa.BeforeGroupsExample@2cb4893b]" started-at="2024-04-16T03:03:42 EDT" name="tearDown" finished-at="2024-04-16T03:03:42 EDT" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ebrahim.hossain.sqa.AfterGroupsExample@74ea2410]" started-at="2024-04-16T03:08:34 EDT" name="tearDown" finished-at="2024-04-16T03:08:34 EDT" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- ebrahim.hossain.sqa.BeforeGroupsExample -->
+      </class> <!-- ebrahim.hossain.sqa.AfterGroupsExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
