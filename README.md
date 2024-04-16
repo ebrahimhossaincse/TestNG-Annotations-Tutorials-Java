@@ -140,13 +140,6 @@ git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java
 ### 00 - Before Suite TestNG Annotation 
 - 00 - 00 []() 
 
-
-### 14 - Browser Window
-- 14 - 00 [Create New Window](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/windowhandling/CreateNewWindow.java)
-- 14 - 01 [Count The Window](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/windowhandling/CountTheWindows.java)
-- 14 - 02 [Switch To New Window](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/windowhandling/SwitchToNewWindow.java)
-- 14 - 03 [Switching One Window To Another](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/windowhandling/SwitchingOneWindowToAnother.java)
-
 ### 15 - Frame In Selenium
 - 15 - 00 [Count The Total Number Of IFrames](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/iframehandling/CountTotalNumberOfIFrames.java)
 - 15 - 01 [Switch To Frames By ID](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/iframehandling/SwitchToFramesByID.java)
