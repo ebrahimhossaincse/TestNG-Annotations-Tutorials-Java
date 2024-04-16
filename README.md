@@ -138,7 +138,18 @@ git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java
 ## Step Wise Details
 
 ### 00 - BeforeSuite Annotation 
- 
+The @BeforeSuite annotation in TestNG is used to indicate that a specific method will be executed before the execution of all tests in the suite. This annotation is typically used to perform setup activities that are required for the entire test suite.
+
+### **Usage:**
+Initializing global resources required for the entire test suite.
+Configuring environment settings such as database connections, web server setup, etc.
+Preparing test data that will be used across multiple test cases.
+
+### **Note:**
+There can only be one method annotated with @BeforeSuite in a test suite. If multiple methods are annotated with @BeforeSuite, TestNG will throw an exception.
+The @BeforeSuite method is executed only once before the entire test suite runs.
+
+[Before Suite](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/BeforeSuiteExample.java) 
 
 ### Acknowledgments
 Special thanks to the contributors and the TestNG community for their valuable resources and tutorials.
@@ -147,4 +158,4 @@ Special thanks to the contributors and the TestNG community for their valuable r
 For questions or feedback, please feel free to reach out:
 
 1. Maintainer: [Md. Ebrahim Hossain](https://github.com/ebrahimhossaincse)
-2. Project Link:[Selenium-Tutorials-Java](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java.git) 
+2. Project Link:[TestNG-Annotations-Tutorials-Java](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java.git) 
