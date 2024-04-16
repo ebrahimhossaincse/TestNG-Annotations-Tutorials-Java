@@ -272,10 +272,10 @@ git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java
 - 17 - 03 [Get Maximum Price In Column](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/webtablehandling/GetMaximumPriceInColumn.java)
 
 ### Acknowledgments
-Special thanks to the contributors and the Selenium community for their valuable resources and tutorials.
+Special thanks to the contributors and the TestNG community for their valuable resources and tutorials.
 
 ### Contact
 For questions or feedback, please feel free to reach out:
 
 1. Maintainer: [Md. Ebrahim Hossain](https://github.com/ebrahimhossaincse)
-2. Project Link:[Selenium-Tutorials-Java](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java) 
+2. Project Link:[Selenium-Tutorials-Java](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java.git) 
