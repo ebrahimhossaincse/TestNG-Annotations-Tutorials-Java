@@ -2,7 +2,7 @@
     <test name="Parameterized Test">
         <parameter name="url" value="https://www.testingtherapy.com/"/>
         <classes>
-            <class name="ParameterizedTest"/>
+            <class name="ebrahim.hossain.sqa.ParametersExample"/>
         </classes>
     </test>
 </suite>

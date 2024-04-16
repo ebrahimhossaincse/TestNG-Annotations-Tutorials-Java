@@ -2,32 +2,50 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-16T03:08:22 EDT" name="Default suite" finished-at="2024-04-16T03:08:34 EDT" duration-ms="11474">
+  <suite started-at="2024-04-16T04:47:19 EDT" name="Parameterized Suite" finished-at="2024-04-16T04:47:32 EDT" duration-ms="13213">
     <groups>
-      <group name="webTests">
-        <method signature="AfterGroupsExample.firstTest()[pri:0, instance:ebrahim.hossain.sqa.AfterGroupsExample@74ea2410]" name="firstTest" class="ebrahim.hossain.sqa.AfterGroupsExample"/>
-        <method signature="AfterGroupsExample.secondTest()[pri:0, instance:ebrahim.hossain.sqa.AfterGroupsExample@74ea2410]" name="secondTest" class="ebrahim.hossain.sqa.AfterGroupsExample"/>
-      </group> <!-- webTests -->
     </groups>
-    <test started-at="2024-04-16T03:08:22 EDT" name="Default test" finished-at="2024-04-16T03:08:34 EDT" duration-ms="11474">
-      <class name="ebrahim.hossain.sqa.AfterGroupsExample">
-        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:ebrahim.hossain.sqa.AfterGroupsExample@74ea2410]" started-at="2024-04-16T03:08:22 EDT" name="startChromeBrowser" finished-at="2024-04-16T03:08:24 EDT" duration-ms="1557" status="PASS">
+    <test started-at="2024-04-16T04:47:19 EDT" name="Parameterized Test" finished-at="2024-04-16T04:47:32 EDT" duration-ms="13213">
+      <class name="ebrahim.hossain.sqa.ParametersExample">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:ebrahim.hossain.sqa.ParametersExample@2eae8e6e]" started-at="2024-04-16T04:47:19 EDT" name="startChromeBrowser" finished-at="2024-04-16T04:47:21 EDT" duration-ms="2246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChromeBrowser -->
-        <test-method signature="firstTest()[pri:0, instance:ebrahim.hossain.sqa.AfterGroupsExample@74ea2410]" started-at="2024-04-16T03:08:24 EDT" name="firstTest" finished-at="2024-04-16T03:08:28 EDT" duration-ms="3928" status="PASS">
+        <test-method signature="firstTest(java.lang.String)[pri:0, instance:ebrahim.hossain.sqa.ParametersExample@2eae8e6e]" started-at="2024-04-16T04:47:21 EDT" name="firstTest" finished-at="2024-04-16T04:47:26 EDT" duration-ms="5598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.testingtherapy.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method signature="secondTest()[pri:0, instance:ebrahim.hossain.sqa.AfterGroupsExample@74ea2410]" started-at="2024-04-16T03:08:28 EDT" name="secondTest" finished-at="2024-04-16T03:08:34 EDT" duration-ms="5802" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ebrahim.hossain.sqa.ParametersExample@2eae8e6e]" started-at="2024-04-16T04:47:26 EDT" name="closeBrowser" finished-at="2024-04-16T04:47:27 EDT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:ebrahim.hossain.sqa.ParametersExample@2eae8e6e]" started-at="2024-04-16T04:47:27 EDT" name="startChromeBrowser" finished-at="2024-04-16T04:47:27 EDT" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChromeBrowser -->
+        <test-method signature="secondTest(java.lang.String)[pri:0, instance:ebrahim.hossain.sqa.ParametersExample@2eae8e6e]" started-at="2024-04-16T04:47:27 EDT" name="secondTest" finished-at="2024-04-16T04:47:32 EDT" duration-ms="4118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.testingtherapy.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ebrahim.hossain.sqa.AfterGroupsExample@74ea2410]" started-at="2024-04-16T03:08:34 EDT" name="tearDown" finished-at="2024-04-16T03:08:34 EDT" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ebrahim.hossain.sqa.ParametersExample@2eae8e6e]" started-at="2024-04-16T04:47:32 EDT" name="closeBrowser" finished-at="2024-04-16T04:47:32 EDT" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- ebrahim.hossain.sqa.AfterGroupsExample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ebrahim.hossain.sqa.ParametersExample -->
+    </test> <!-- Parameterized Test -->
+  </suite> <!-- Parameterized Suite -->
 </testng-results>
