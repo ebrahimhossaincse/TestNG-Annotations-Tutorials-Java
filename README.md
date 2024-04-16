@@ -140,13 +140,6 @@ git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java
 ### 00 - Before Suite TestNG Annotation 
 - 00 - 00 []() 
 
-### 07 - Automate Checkbox in Selenium
-- 07 - 00 [Select Checkbox By ID](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/SelectCheckboxByID.java)
-- 07 - 01 [Select Checkbox By XPath](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/SelectCheckboxByXPath.java)
-- 07 - 02 [Select Multiple Checkboxes](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/SelectMultiplesCheckbox.java)
-- 07 - 03 [Unselect Checkbox By ID](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/unselectCheckboxByID.java)
-- 07 - 04 [Unselect Checkbox By XPath](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/UnselectCheckboxByXPath.java)
-- 07 - 05 [Unselect Multiple Checkboxes](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/checkboxhandling/UnselectMultiplesCheckbox.java)
 
 ### 08 - DropDown in Selenium
 - 08 - 00 [Select By Index](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/154459da50d06a7a287fbe56ac3691dc80154c46/src/test/java/dropdownhandling/SelectByIndex.java)
