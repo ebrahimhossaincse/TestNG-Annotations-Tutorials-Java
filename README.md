@@ -28,9 +28,9 @@
     - [@BeforeMethod](#06---beforeMethod-annotation)
     - [@AfterMethod](#07---afterMethod-annotation)
     - [@Test](#08---test-annotation)
-    - [@DataProvider](#09---)
-    - [@Factory](#10---)
-    - [@Ignore](#11---)
+    - [@DataProvider](#09---dataProvider-annotation)
+    - [@Factory](#10---factory-annotation)
+    - [@Ignore](#11---ignore-annotation)
     
 38. [Acknowledgments](#acknowledgments)
 39. [Contact](#contact)
@@ -307,6 +307,23 @@ The @DataProvider annotation in TestNG is used to supply test methods with data.
 ### **Example:**
 [Data Provider](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/DataProviderExample.java)
 
+### 09 - Factory Annotation 
+The @Factory annotation in TestNG is used to create a test class instance multiple times with different sets of data or parameters. This annotation is particularly useful when you need to create instances of a test class dynamically, each with its own set of input data.
+
+### **Usage:**
+
+- Creating multiple instances of a test class with different inputs.
+- Running the same test method with various parameters or data sets.
+- Parameterizing tests dynamically.
+
+### **Note:**
+
+- The @Factory method must return an array of objects or Object[].
+- Each object in the array will be considered an instance of the test class and will execute the test method(s) defined in the test class.
+- TestNG creates a new instance of the test class for each object returned by the @Factory method.
+
+### **Example:**
+[Factory](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/FactoryExample.java)
 
 ### Acknowledgments
 Special thanks to the contributors and the TestNG community for their valuable resources and tutorials.
