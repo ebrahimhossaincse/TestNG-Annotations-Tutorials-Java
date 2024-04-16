@@ -141,15 +141,6 @@ git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java
 - 00 - 00 []() 
 
 
-### 09 - Alerts in Selenium
-- 09 - 00 [Accept Simple Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/AcceptSimpleAlert.java)
-- 09 - 01 [Accept ConfirmA lert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/AcceptConfirmAlert.java)
-- 09 - 02 [Accept Prompt Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/AcceptPromptAlert.java)
-- 09 - 03 [Fetch Text Of Prompt Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/GetTextOfPromptAlert.java)
-- 09 - 04 [Send Text In Prompt Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/SendTextPromptAlert.java)
-- 09 - 05 [Reject Confirm Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/DismissConfirmAlert.java)
-- 09 - 06 [Reject Prompt Alert](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/alerthandling/DismissPromptAlert.java)
-
 ### 10 - Form WebElement Commands
 - 10 - 00 [Sendkeys](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/formwebelementcommands/SendKeysMethod.java)
 - 10 - 01 [Clear](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/formwebelementcommands/ClearMethod.java)
