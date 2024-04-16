@@ -140,13 +140,6 @@ git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java
 ### 00 - Before Suite TestNG Annotation 
 - 00 - 00 []() 
 
-### 16 - Assertion
-- 16 - 00 [Assert Equals](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/assertions/AssertEquals.java)
-- 16 - 01 [Assert False](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/assertions/AssertFalse.java)
-- 16 - 02 [Assert Not Equals](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/assertions/AssertNotEquals.java)
-- 16 - 03 [Assert Not Null](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/assertions/AssertNotNull.java)
-- 16 - 04 [Assert True](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/assertions/AssertTrue.java)
-- 16 - 05 [Soft Assertion](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/assertions/SoftAssertion.java)
 
 ### 17 - Web Table
 - 17 - 00 [Fetch Table Heading](https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java/blob/main/src/test/java/webtablehandling/FetchTableHeading.java)
