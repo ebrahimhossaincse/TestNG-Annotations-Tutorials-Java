@@ -1,0 +1,8 @@
+<suite name="Parameterized Suite">
+    <test name="Parameterized Test">
+        <parameter name="url" value="https://www.testingtherapy.com/"/>
+        <classes>
+            <class name="ParameterizedTest"/>
+        </classes>
+    </test>
+</suite>
