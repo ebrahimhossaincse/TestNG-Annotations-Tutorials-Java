@@ -141,13 +141,15 @@ git clone https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java
 The @BeforeSuite annotation in TestNG is used to indicate that a specific method will be executed before the execution of all tests in the suite. This annotation is typically used to perform setup activities that are required for the entire test suite.
 
 ### **Usage:**
-Initializing global resources required for the entire test suite.
-Configuring environment settings such as database connections, web server setup, etc.
-Preparing test data that will be used across multiple test cases.
+
+- Initializing global resources required for the entire test suite.
+- Configuring environment settings such as database connections, web server setup, etc.
+- Preparing test data that will be used across multiple test cases.
 
 ### **Note:**
-There can only be one method annotated with @BeforeSuite in a test suite. If multiple methods are annotated with @BeforeSuite, TestNG will throw an exception.
-The @BeforeSuite method is executed only once before the entire test suite runs.
+
+- There can only be one method annotated with @BeforeSuite in a test suite. If multiple methods are annotated with @BeforeSuite, TestNG will throw an exception.
+- The @BeforeSuite method is executed only once before the entire test suite runs.
 
 [Before Suite](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/BeforeSuiteExample.java) 
 
