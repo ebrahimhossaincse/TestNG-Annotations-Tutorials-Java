@@ -325,6 +325,24 @@ The @Factory annotation in TestNG is used to create a test class instance multip
 ### **Example:**
 [Factory](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/FactoryExample.java)
 
+### 10 - Ignore Annotation 
+The @Ignore annotation in TestNG is used to temporarily disable a test method or a test class. This annotation is helpful when you want to skip certain tests without deleting them, such as when a test is failing due to an issue that needs to be fixed later.
+
+### **Usage:**
+
+- Temporarily skipping a test method or class.
+- Marking tests that are currently failing or not ready for execution.
+- Preventing certain tests from running in specific scenarios.
+
+### **Note:**
+
+- The @Ignore annotation can be applied to both test methods and test classes.
+- When a test method is ignored, TestNG will not execute it, and the method will be marked as "skipped" in the test report.
+- Ignored tests will not contribute to the pass or fail status of the overall test suite.
+
+### **Example:**
+[Ignore](https://github.com/ebrahimhossaincse/TestNG-Annotations-Tutorials-Java/blob/main/src/test/java/ebrahim/hossain/sqa/IgnoreExample.java)
+
 ### Acknowledgments
 Special thanks to the contributors and the TestNG community for their valuable resources and tutorials.
 
